@@ -1,0 +1,38 @@
+\documentclass{beamer}
+\usetheme{metropolis}
+
+\title{Make Assambly Great Again!}
+\subtitle{MAGA}
+\author{KurodaKanbei@sjtu.edu.cn}
+\institute{Shanghai Jiao Tong University}
+\date{\today}
+
+\begin{document}
+\titlepage
+\frame{
+	\frametitle{Purpose}
+	Main Instructions Based on Compiler 2018
+	\begin{center}
+		\begin{enumerate}
+			\item DataTrans MOV PUSH POP
+			\item Arithmatic ADD SUB INC DEC
+			\item Logical AND OR NOT
+			\item Control JUMP CALL RET LOOP
+			\item Processor LOCK NOP WAIT
+		\end{enumerate}
+	\end{center}
+}
+
+\frame{
+	\frametitle{Difficult \& Feature}
+	There are too many instructions in x86!
+	\begin{center}
+		\begin{enumerate}
+			\item No PUSH \& POP -> Mannual Stack to Fulfill Function Call
+			\item Memory Manage without Malloc
+			\item Register Reallocate
+			\item Two into Three, Instructions Optimize
+		\end{enumerate}
+	\end{center}
+}
+\end{document}
